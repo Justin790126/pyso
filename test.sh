@@ -1,0 +1,1 @@
+gcc main.c -o main $(python3.6-config --includes) $(python3.6-config --ldflags) -ldl -lpthread
